@@ -34,29 +34,5 @@ Push Swap utilise deux piles, appelées A et B. Les instructions suivantes sont 
 - `rrb` : déplacer le dernier élément de la pile B au sommet de la pile B.
 - `rrr` : équivalent à `rra` et `rrb` en même temps.
 
-## Exemple
-
-Voici un exemple d'exécution de Push Swap avec la liste d'entiers `3 1 4 2` :
-```
-$>./push_swap 3 1 4 2
-pb
-sa
-pb
-ra
-pa
-ra
-pa
-```
-
-Cela signifie qu'il faut effectuer les instructions suivantes pour trier la pile d'entiers :
-
-1. Déplacer le premier élément de la pile A au sommet de la pile B.
-2. Échanger les deux premiers éléments de la pile A.
-3. Déplacer le premier élément de la pile A au sommet de la pile B.
-4. Déplacer le premier élément de la pile A au bas de la pile A.
-5. Déplacer le premier élément de la pile B au sommet de la pile A.
-6. Déplacer le premier élément de la pile A au bas de la pile A.
-7. Déplacer le premier élément de la pile B au sommet de la pile A.
-
 
 Merci à [byaliego](https://github.com/byaliego) pour les badges de projet.
